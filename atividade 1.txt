@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("====== Menu de dias ======");
+        System.out.println("Digite um número de 1 a 7");
+        Scanner leitor=new Scanner(System.in);
+int dia= leitor.nextInt();
+ switch (dia){
+            case 1:
+                System.out.println("Você escolheu o número 1");
+                System.out.println("Que é Domingo");
+                break;
+            case 2:
+                System.out.println("Você escolheu o número 2");
+                System.out.println("Que é Segunda-Feira");
+                break;
+            case 3:
+                System.out.println("Você escolheu o número 3");
+                System.out.println("Que é Terça-feira");
+                break;
+            case 4:
+                System.out.println("Você escolheu o  número 4");
+                System.out.println("Que é Quarta-feira");
+                break;
+            case 5:
+                System.out.println("Você escolheu o número 5");
+                System.out.println("Que é Quinta-feira");
+                break;
+            case 6:
+                System.out.println("Você escolheu o número 6");
+                System.out.println("Que é Sexta-feira");
+                break;
+            case 7:
+                System.out.println("Você escolheu o número 7");
+                System.out.println("Que é Sábado");
+                break;
+            default:
+                System.out.println("Número inválido");
+        }
+        leitor.close();
+    }
+}

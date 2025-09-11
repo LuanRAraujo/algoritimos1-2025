@@ -1,0 +1,62 @@
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+    System.out.println("====== Menu de meses ======");
+    System.out.println("Digite um número de 1 a 12");
+    Scanner leitor=new Scanner(System.in);
+int mes= leitor.nextInt();
+switch (mes) {
+    case 1:
+        System.out.println("Você escolheu o número 1");
+        System.out.println("Que é Janeiro");
+        break;
+    case 2:
+        System.out.println("Você escolheu o número 2");
+        System.out.println("Que é Fevereiro");
+        break;
+    case 3:
+        System.out.println("Você escolheu o número 3");
+        System.out.println("Que é Março");
+        break;
+    case 4:
+        System.out.println("Você escolheu o número 4");
+        System.out.println("Que é Abril");
+        break;
+    case 5:
+        System.out.println("Você escolheu o número 5");
+        System.out.println("Que é Maio");
+        break;
+    case 6:
+        System.out.println("Você escolheu o número 6");
+        System.out.println("Que é Junho");
+        break;
+    case 7:
+        System.out.println("Você escolheu o número 7");
+        System.out.println("Que é Julho");
+        break;
+    case 8:
+        System.out.println("Você escoleu o número 8");
+        System.out.println("Que é Agosto");
+        break;
+    case 9:
+        System.out.println("Você escolheu o número 9");
+        System.out.println("Que é Setembro");
+        break;
+    case 10:
+        System.out.println("Você escolheu o número 10");
+        System.out.println("Que é Outubro");
+        break;
+    case 11:
+        System.out.println("Você escolheu o número 11");
+        System.out.println("Que é Novembro");
+        break;
+    case 12:
+        System.out.println("Você escolheu o número 12");
+        System.out.println("Que é Dezembro");
+        break;
+    default:
+        System.out.println("Número digitado é invãlido");
+        }
+        leitor.close();
+    }
+}
