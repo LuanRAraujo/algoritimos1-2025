@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Switch4 {
+public static void main(String[] args) {
+Scanner leitor=new Scanner(System.in);
+System.out.println("Digite o seu plano de trabalho, sendo as seguintes opções A, B ou C: ");
+String plano=leitor.nextLine().toUpperCase();
+System.out.println("Informe o seu salário atual: ");
+double salario=leitor.nextDouble();
+double salarioNovo = 0;
+switch(plano){
+    case "A":
+        salarioNovo=salario*1.10;
+        break;
+        case "B":
+            salarioNovo=salario*1.15;
+            break;
+            case "C":
+                salarioNovo=salario*1.20;
+                break;
+                default:
+                    System.out.println("Plano inválido! ");
+        }
+        leitor.close();
+System.out.printf("O novo salário será: R$ %.2f%n ", salarioNovo);
+    }
+}

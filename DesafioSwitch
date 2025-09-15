@@ -1,0 +1,67 @@
+import java.util.Scanner;
+public class DesafioSwitch {
+public static void main(String[] args) {
+Scanner lt=new Scanner(System.in);
+System.out.printf("====== Menu dos Golpes do Sistema Financeiro Brasileiro ======%nGolpes por contato telefônico:%n  1 - Falsa Central de Atendimento.%n  2 - Golpe do Falso Motoboy.%n  3 - Golpe da Mão Fantasma.%n  4 - Golpe Módulo de Segurança.%n  5 - Golpe do Empréstimo Consignado.%n  6 - Golpe da Liberação de Equipamentos.%n  7 - Golpe do 0800.%n  8 - Golpe da Videochamada.%nGolpes por Mensagens:%n  9 - Links Falsos.%n  10 - Golpes no WhatsApp.%n  11 - Desenrola Brasil.%n  12 - Catfish e Golpes Online.%n  13 - Golpe do Emprego.%nGolpes no Dia a Dia:%n  14 - Golpes Pix.%n  15 - Conta Laranja.%n  16 - Compras Online.%n  17 - Golpe do Falso Boleto.%n  18 - Cartão Clonado.%n ");
+int golpes=lt.nextInt();
+switch(golpes){
+    case 1:
+        System.out.printf("Golpes por contato telefônico.%nFalsa Central de Atendimento:%n O golpe da Central de Atendimento é quando golpistas se passam por funcionários de bancos para roubar dados e fazer operações financeiras.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/golpe-falsa-central-de-atendimento/ ");
+        break;
+        case 2:
+            System.out.printf("Golpes por contato telefônico.%nGolpe do Falso Motoboy:%n Os golpes dos Falsos Motoboys são golpes bem construídos, tudo para dar a sensação de veracidade nas abordagens e para que as pessoas acreditem que estão realizando um procedimento legítimo.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/golpe-do-falso-motoboy-saiba-como-se-proteger/ ");
+            break;
+            case 3:
+                System.out.printf("Golpes por contato telefônico.%nGolpe da Mão Fantasma:%n O golpe normalmente começa com uma ligação na qual o criminoso se apresenta como funcionário de uma instituição financeira.%nOs falsos funcionários são cordiais, falam bem, usam recursos tecnológicos, como as gravações das centrais, e simulam transferências para outros atendentes.%nPodem, inclusive, mascarar o número do telefone, se passando por centrais bancárias.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/como-evitar-golpes-de-acesso-remoto/ ");
+                break;
+                case 4:
+                    System.out.printf("Golpes por contato telefônico.%nGolpe Módulo de Segurança:%n O golpe tem base em golpistas se passando pela Central de Relacionamento BB, solicitando uma suposta instalação ou atualização do Módulo de Segurança que o permite acessar o equipamento remotamente.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/golpe-do-modulo-seguranca-bb/ ");
+                    break;
+                    case 5:
+                        System.out.printf("Golpes por contato telefônico.%nGolpe do Empréstimo Consignado:%n Os golpes e fraudes no empréstimo consignado podem ocorrer de diversas maneiras, mas geralmente envolvem o uso indevido dos dados pessoais dos consumidores.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/veja-como-se-proteger-do-golpe-do-emprestimo-consignado/ ");
+                        break;
+                        case 6:
+                            System.out.printf("Golpes por contato telefônico.%nGolpe da Liberação de Equipamentos:%n No golpe da liberação de equipamentos, o criminoso faz contato por telefone ou WhatsApp, se passando pelo banco, pedindo para que a pessoa compareça ao caixa eletrônico.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/roubaram-o-meu-celular-e-agora/ ");
+                            break;
+                            case 7:
+                                System.out.printf("Golpes por contato telefônico.%nGolpe do 0800:%n Cuidado com solicitações para entrar em contato com a central de atendimento por um número 0800 para tratar de supostas transações financeiras suspeitas no seu cartão ou na conta. É golpe!%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/golpe-0800/ ");
+                                break;
+                                case 8:
+                                    System.out.printf("Golpes por contato telefônico.%nGolpe da Videochamada:%n Mesmo que a ligação pareça ser de um número oficial do banco é sempre importante estar atento ao que está sendo informado e solicitado. Confira os sinais e as dicas de segurança!%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/golpe-da-videochamada/ ");
+                                    break;
+                                    case 9:
+                                        System.out.printf("Golpes por Mensagens.%nLinks Falsos:%n Conheça o phishing, golpe digital no qual cibercriminosos tentam roubar dados das vítimas por meio de links falsos, e saiba como se prevenir no link a seguir:https://blog.bb.com.br/golpe-via-sms-rouba-dados-bancarios/ ");
+                                        break;
+                                        case 10:
+                                            System.out.printf("Golpes por Mensagens.%nGolpes no WhatsApp:%n O aplicativo de mensagens favorito dos brasileiros também tem atraído a atenção de golpistas.%nConheça os principais golpes no Whatsapp e veja como se proteger no link a seguir:https://www.bb.com.br/site/pra-voce/seguranca/conheca-os-principais-golpes/ ");
+                                            break;
+                                            case 11:
+                                                System.out.printf("Golpes por Mensagens.%nDesenrola Brasil:%n Nesse golpe, os criminosos aproveitam as redes sociais e usam links falsos para fingir intermediar uma renegociação de dívidas em um novo programa federal.%nSe ficar na dúvida, procure os canais oficiais do BB. Saiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/desenrola-brasil-golpes-usam-links-falsos/ ");
+                                                break;
+                                                case 12:
+                                                    System.out.printf("Golpes por Mensagens.%nCatfish e Golpes Online:%n Nesses golpes, é preciso estar atento, pois, nas redes sociais, nem tudo nem todo mundo é o que parece ser. Casos de pessoas enganadas por perfis falsos são mais comuns do que se imagina.%nSaiba mais para se manter protegido no link a seguir:https://blog.bb.com.br/catfish-e-golpes-online/ ");
+                                                    break;
+                                                    case 13:
+                                                        System.out.printf("Golpes por Mensagens.%nGolpe do Emprego:%n Golpes também podem vir disfarçados de oportunidades de emprego. Saiba como identificar e evitar no link a seguir:https://blog.bb.com.br/golpe-do-emprego-como-identificar-e-evitar/ ");
+                                                        break;
+                                                        case 14:
+                                                            System.out.printf("Golpes no Dia a Dia.%nGolpes Pix:%n Conheça as principais estratégias utilizadas pelos golpistas e os cuidados necessários para não se tornar uma vítima de fraudes.%nSaiba como identificar e evitar no link a seguir:https://blog.bb.com.br/golpes-do-pix-saiba-como-se-proteger/ ");
+                                                            break;
+                                                            case 15:
+                                                                System.out.printf("Golpes no Dia a Dia.%nConta Laranja:%n Pessoas laranjas são aquelas que emprestam seus dados pessoais, como nome, CPF e conta bancária, para que outras pessoas registrem bens ou movimentem dinheiro sem serem identificadas.%nSaiba como identificar e evitar no link a seguir:https://blog.bb.com.br/entenda-o-risco-de-emprestar-sua-conta-bancaria/");
+                                                                break;
+                                                                case 16:
+                                                                    System.out.printf("Golpes no Dia a Dia.%nCompras Online:%n As compras online ganham cada vez mais adeptos, mas entre ofertas e facilidades, você precisa sempre lembrar de se proteger.%nSaiba como identificar e evitar no link a seguir:https://blog.bb.com.br/voce-esta-seguro-para-comprar-online/ ");
+                                                                    break;
+                                                                    case 17:
+                                                                        System.out.printf("Golpes no Dia a Dia.%nGolpe do Falso Boleto:%n Uma prática que tem crescido se aproveitando dessa técnica é o golpe do boleto falso. Para fazer com que o pagamento vá para a conta bancária do golpista, ele falsifica os boletos referentes a compras ou mesmo cobranças.%nHá diversas maneiras de atrair as vítimas, que vão desde a manipulação do código de barras do documento até a criação de páginas falsas que oferecem o download da fatura forjada.%nSaiba como identificar e evitar no link a seguir:https://blog.bb.com.br/golpe-do-boleto-falso-saiba-como-se-proteger/ ");
+                                                                        break;
+                                                                        case 18:
+                                                                            System.out.printf("Golpes no Dia a Dia%nCartão Clonado:%n Surgiu a desconfiança de que capturaram os dados do seu cartão? Aja com rapidez para garantir que outras compras não sejam efetuadas.%nÉ preciso entrar em contato com o banco ou operadora de crédito, solicitar o bloqueio do cartão e contestar as transações indevidas.%nQuanto antes esse procedimento for realizado, melhor. Saiba como proteger os dados do seu cartão e o que fazer para contestar uma compra não reconhecida, clicando no link a seguir:https://blog.bb.com.br/cartao-clonado-saiba-como-se-proteger/ ");
+                                                                            break;
+                                                                            default :
+                                                                                System.out.printf("A númeração selecionada é inválida!");
+}
+lt.close();
+        }
+    }
